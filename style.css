@@ -6,18 +6,19 @@
 }
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+ 
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 24px;
 }
 
 header{
     background-color: #1f2937;
-    height: 500px;
+    height: auto;
+   
     
     
 }
@@ -64,29 +65,96 @@ header{
 }
 .left-right{
     display: flex;
-}
-.left-side{
-    border: 5px solid red;
-    color: white;
-    margin-right: 30px;
+  
 }
 
-h1{
+.left-side{
+    
+     color: white;
+      margin-right: 30px;
+     margin-top: 50px;
+    
+
+}
+.left-side h1{
     font-size: 48px;
     font-weight: 900px;
     line-height: 1.1;
     color:#f9faf8;
+    margin-bottom: 10px;
 }
-p{
-     font-size: 48px;
-    font-weight: 900px;
+.left-side p{
+    font-size: 18px;
     line-height: 1.1;
-    color:#f9faf8;
+    color:#e5e7eb;
+    margin-bottom: 10px;
 
 }
-.right-side{
-     border: 5px solid red;
-     color: white;
-     margin-left: 170px;
+.left-side .btn-signup{
+    background-color: #3882f6;
+    color:#e5e7eb;
+    align-content: center;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 50px;
+   
+}
+
+.right-side img{
+    
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
 
 }
+
+/* Section Area */
+
+
+/* Section Area */
+
+h4 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 20px 0;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.outer-container {
+    width: 150px;
+    text-align: center;
+}
+
+.inner-container {
+    width: 120px;
+    height: 150px;
+    border: 2px solid lightblue;
+    border-radius: 7px;
+    margin: 0 auto 10px;
+}
+
+.outer-container p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
