@@ -70,6 +70,20 @@ header{
     color: white;
     margin-right: 30px;
 }
+
+h1{
+    font-size: 48px;
+    font-weight: 900px;
+    line-height: 1.1;
+    color:#f9faf8;
+}
+p{
+     font-size: 48px;
+    font-weight: 900px;
+    line-height: 1.1;
+    color:#f9faf8;
+
+}
 .right-side{
      border: 5px solid red;
      color: white;
