@@ -19,6 +19,7 @@ header{
     background-color: #1f2937;
     height: 500px;
     
+    
 }
 
 
@@ -60,4 +61,18 @@ header{
     font-size: 24px;
     color: #f9faf8;
    
+}
+.left-right{
+    display: flex;
+}
+.left-side{
+    border: 5px solid red;
+    color: white;
+    margin-right: 30px;
+}
+.right-side{
+     border: 5px solid red;
+     color: white;
+     margin-left: 170px;
+
 }
